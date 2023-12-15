@@ -11,7 +11,7 @@ create table schedule (
 	tanggal_pembuatan date,
 );
 
-insert into schedule (bank_name, nasabah_name, gender, alamat, rekening, jenis_tabungan, waktu_pembuatan, tanggal_pembuatan) 
+insert into schedule (bank_name, nasabah_name, gender, jenis_tabungan, saldo, alamat, waktu_pembuatan, tanggal_pembuatan) 
 values
 	('BCA', 'Kevin Caiser', 'male', '["Gold", "Platinum"]', '50000000', 'Citraland','08:00', '2022-12-09'),
 	('BRI', 'Antonio Moregan', 'male', '["Gold"]', '5050000', 'Central Park', '10:00', '2021-11-07'),
