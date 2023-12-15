@@ -5,7 +5,7 @@ create table schedule (
 	nasabah_name text,
 	gender text,
 	jenis_tabungan text,
-	rekening str,
+	rekening integer,
    	alamat text,
  	waktu_pembuatan time,
 	tanggal_pembuatan date,
