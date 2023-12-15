@@ -32,7 +32,7 @@ if page == "Edit Data":
         bank_name_lama = result["bank_name"]
         nasabah_name_lama = result["nasabah_name"]
         gender_lama = result["gender"]
-        jenis_tabungan = result["jenis_tabungan"]
+        jenis_tabungan_lama = result["jenis_tabungan"]
         rekening_lama = result["rekening"]
         alamat_lama = result["alamat"]
         waktu_pembuatan_lama = result["waktu_pembuatan"]
